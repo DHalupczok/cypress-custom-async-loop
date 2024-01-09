@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main page</title>
+</head>
+<body>
+<div class="outer">
+    <div class="inner">
+        <h1 id="result-container" data-cy="result">Some result</h1>
+        <button onclick="getResult()" id="button" data-cy="button"> click Me</button>
+    </div>
+</div>
+</body>
+<script src="index.js"></script>
+
+<style>
+
+    body {
+        background-color: coral;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .outer {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .inner {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    button {
+        background-color: aqua;
+        border-radius: 5px;
+    }
+    h1 {
+        color: aliceblue;
+    }
+</style>
+</html>

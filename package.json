@@ -1,0 +1,22 @@
+{
+  "name": "cypress-custom-async-loop",
+  "version": "1.0.0",
+  "description": "Example of how looping cypress commands can be achevieved by creating custom \"do While\" loop",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "light-server -s . -p 9090 -w \"src/*.js, src/*.html"
+  },
+  "keywords": [
+    "cypress",
+    "loop"
+  ],
+  "author": "Denis Halupczok",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2"
+  },
+  "dependencies": {
+    "light-server": "^2.9.1"
+  }
+}
