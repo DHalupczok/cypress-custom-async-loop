@@ -1,6 +1,6 @@
 getResult = async () => {
     try {
-        const response = await fetch('http://localhost:8080');
+        const response = await fetch('http://localhost:3000');
         const result = await response.json();
         changeResult(`New result is ${result.responseText}!`);
     } catch (e) {
